@@ -1,0 +1,21 @@
+h1{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: color;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color{
+    from{box-shadow: 1px 1px 40px red;}
+    25%{box-shadow: 1px 1px 40px yellow;}
+    50%{box-shadow: 1px 1px 20px green;}
+    75%{box-shadow: 1px 1px 40px blue;}
+    to{box-shadow: 1px 1px 20px purple;}
+}
